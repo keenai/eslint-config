@@ -1,12 +1,13 @@
 # eslint-config-javascript
+Check out [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base/rules) for a list of all the rules we are inheriting.
 
 ## Table of Contents
 1. [Installation](#installation)
 1. [Rules](#rules)
-	1. [import/first](#import-first)
-	1. [import/no-extraneous-dependencies](#import-no-extraneous-dependencies)
-	1. [import/order](#import-order)
-	1. [import/resolver](#import-resolver)
+	1. [import/first](#importfirst)
+	1. [import/no-extraneous-dependencies](#importno-extraneous-dependencies)
+	1. [import/order](#importorder)
+	1. [import/resolver](#importresolver)
 	1. [wyze/sort-imports](#wyze-sort-imports)
 
 ## Installation
@@ -25,17 +26,14 @@ Then, extend `@keenai/javascript` in your ESLint configuration file.
 ```
 
 ## Rules
-Check out [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base/rules) for a list of all the rules we are inheriting.
-
 ### `import/first`
 We prefer alphabetical sorting. No preference given to absolute versus relative.
-
 
 ### `import/no-extraneous-dependencies`
 Modified to exclude known development files. If you are writing a story or test, you should be able to import a package listed under `devDependencies` without any lint errors. Otherwise, if you are importing a package that is not listed under `dependencies`, this check will fail.
 
 ### `import/order`
-See [import/first](#import-first).
+See [import/first](#importfirst).
 
 Also, the options [here](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md#groups-array) are, while well defined and understandable, _super confusing_.
 

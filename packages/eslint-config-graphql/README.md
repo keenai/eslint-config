@@ -1,9 +1,10 @@
 # eslint-config-graphql
+Check out [eslint-plugin-graphql](https://github.com/apollographql/eslint-plugin-graphql) and please explain it to me.
 
 ## Table of Contents
 1. [Installation](#installation)
 1. [Rules](#rules)
-	1. [graphql/template-strings](#graphql-template-strings)
+	1. [graphql/template-strings](#graphqltemplate-strings)
 
 ## Installation
 Install the package.
@@ -21,8 +22,6 @@ Then, extend `@keenai/react` in your ESLint configuration file.
 ```
 
 ## Rules
-Check out [eslint-plugin-graphql](https://github.com/apollographql/eslint-plugin-graphql) and please explain it to me.
-
 ### `graphql/template-strings`
 Okay, so there are a couple assumptions occurring in this configuration.
 

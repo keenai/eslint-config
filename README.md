@@ -5,17 +5,13 @@ Breaking these linter configurations apart allows for some more flexibility. Ins
 
 ## Table of Contents
 1. [Packages](#packages)
-	* [eslint-config-javascript](#eslint-config-javascript)
-	* [eslint-config-flowtype](#eslint-config-flowtype)
-	* [eslint-config-react](#eslint-config-react)
-	* [eslint-config-graphql](#eslint-config-graphql)
 1. [Installation](#installation)
 
 ## Packages
-* [eslint-config-javascript](https://github.com/keenai/eslint-config/packages/eslint-config-javascript)
-* [eslint-config-flowtype](https://github.com/keenai/eslint-config/packages/eslint-config-flowtype)
-* [eslint-config-react](https://github.com/keenai/eslint-config/packages/eslint-config-react)
-* [eslint-config-graphql](https://github.com/keenai/eslint-config/packages/eslint-config-graphql)
+* [eslint-config-javascript](https://github.com/keenai/eslint-config/tree/master/packages/eslint-config-javascript)
+* [eslint-config-flowtype](https://github.com/keenai/eslint-config/tree/master/packages/eslint-config-flowtype)
+* [eslint-config-react](https://github.com/keenai/eslint-config/tree/master/packages/eslint-config-react)
+* [eslint-config-graphql](https://github.com/keenai/eslint-config/tree/master/packages/eslint-config-graphql)
 
 ## Installation
 You will need to install each package you desire individually.
@@ -38,4 +34,4 @@ Then, add the respective package name to the "extends" property of your ESLint c
 }
 ```
 
-Be sure the checkout the README of the plugin you are installing.
+Be sure the checkout the **README** of the plugin you are installing.
