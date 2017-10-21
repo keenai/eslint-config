@@ -5,6 +5,7 @@
   "author": "Gabe Hayes <gabe@ric.ricoh.com>",
   "license": "MIT",
   "dependencies": {
+    "babel-eslint": "^8.0.1",
     "eslint": "^4.9.0",
     "eslint-plugin-flowtype": "^2.39.1"
   }
