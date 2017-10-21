@@ -1,0 +1,13 @@
+{
+  "name": "@keenai/eslint-config-javascript",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Gabe Hayes <gabe@ric.ricoh.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-wyze": "^3.3.1"
+  }
+}

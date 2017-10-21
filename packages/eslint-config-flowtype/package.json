@@ -1,0 +1,11 @@
+{
+  "name": "@keenai/eslint-config-flowtype",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Gabe Hayes <gabe@ric.ricoh.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^4.9.0",
+    "eslint-plugin-flowtype": "^2.39.1"
+  }
+}

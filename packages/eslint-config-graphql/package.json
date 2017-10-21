@@ -1,0 +1,12 @@
+{
+  "name": "@keenai/eslint-config-graphql",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Gabe Hayes <gabe@ric.ricoh.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.9.0",
+    "eslint-plugin-graphql": "^1.4.0-1"
+  }
+}
