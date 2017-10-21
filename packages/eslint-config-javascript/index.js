@@ -17,8 +17,6 @@ module.exports = {
     'wyze',
   ],
 
-  parser: 'babel-eslint',
-
   parserOptions: {
     ecmaFeatures: {
       experimentalObjectRestSpread: true,
