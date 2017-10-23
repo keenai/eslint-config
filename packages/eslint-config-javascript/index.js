@@ -43,12 +43,4 @@ module.exports = {
       ignoreCase: true,
     }],
   },
-
-  settings: {
-    'import/resolver': {
-      node: {
-        paths: NODE_PATH.split(':').map((path) => resolve(path)),
-      },
-    },
-  },
 };
