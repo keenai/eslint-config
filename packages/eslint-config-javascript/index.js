@@ -36,6 +36,7 @@ module.exports = {
         '**/stories/**/*.{js,jsx}'
       ]
     }],
+    'semi-style': 0,
     'wyze/sort-imports': [2, {
       ignoreCase: true,
     }],
