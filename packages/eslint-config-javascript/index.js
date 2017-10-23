@@ -26,6 +26,8 @@ module.exports = {
   },
 
   rules: {
+    'arrow-parens': [2, 'always'],
+    'function-paren-newline': [2, 'consistent'],
     'import/first': 0,
     'import/order': 0,
     'import/no-extraneous-dependencies': ['error', {
@@ -36,16 +38,9 @@ module.exports = {
         '**/stories/**/*.{js,jsx}'
       ]
     }],
+    'semi-style': 0,
     'wyze/sort-imports': [2, {
       ignoreCase: true,
     }],
-  },
-
-  settings: {
-    'import/resolver': {
-      node: {
-        paths: NODE_PATH.split(':').map((path) => resolve(path)),
-      },
-    },
   },
 };
