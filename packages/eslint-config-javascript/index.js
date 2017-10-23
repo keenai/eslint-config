@@ -26,6 +26,7 @@ module.exports = {
   },
 
   rules: {
+    'arrow-parens': [2, 'always'],
     'function-paren-newline': [2, 'consistent'],
     'import/first': 0,
     'import/order': 0,
