@@ -1,6 +1,6 @@
 {
   "name": "@keenai/eslint-config-react",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "main": "index.js",
   "author": "Gabe Hayes <gabe@ric.ricoh.com>",
   "license": "MIT",
